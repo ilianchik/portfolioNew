@@ -5,14 +5,12 @@
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;
     height: 100%;
   }
-  span {
-    font-weight: bold;
-  }
+
   img {
-    width: 28px;
+    width: 30px;
   }
   .social {
     display: flex;

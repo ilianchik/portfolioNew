@@ -42,6 +42,7 @@
 
       h1 {
         font-size: 88px;
+        color: #ebeded;
       }
       .buttons {
         display: flex;
@@ -51,9 +52,14 @@
           border: 1px solid #324b4a;
           border-radius: 10px;
           background-color: transparent;
-          color: white;
+          color: #ebeded;
           cursor: pointer;
           font-weight: 300;
+
+          &:last-child {
+            background-color: #324b4a;
+            border: 1px solid #ebeded;
+          }
         }
       }
 
@@ -65,7 +71,7 @@
     .slidingTextContainer {
       position: absolute;
       font-size: 50vh;
-      bottom: -110px;
+      bottom: -60px;
       white-space: nowrap;
       color: #324b4a4e;
       width: 50%;

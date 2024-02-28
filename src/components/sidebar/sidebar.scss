@@ -3,18 +3,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: white;
+  background-color: #ebeded;
   color: #324b4a;
-  z-index: 3;
+  z-index: 4;
 
   .bg {
-    z-index: 3;
+    z-index: 4;
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     width: 400px;
-    background: white;
+    background: #ebeded;
     opacity: 0;
     .links {
       position: absolute;
@@ -41,6 +41,6 @@
     border: none;
     cursor: pointer;
     transform: translateY(2.5px);
-    z-index: 3;
+    z-index: 4;
   }
 }

@@ -22,3 +22,19 @@ section {
   height: 100vh;
   scroll-snap-align: center;
 }
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 3px;
+  border-radius: 2px;
+  &-track {
+    background: #09090a;
+  }
+  &-thumb {
+    background: #475d5c;
+    border-radius: 50px;
+    &:hover {
+      background: #2a3b3a;
+    }
+  }
+}

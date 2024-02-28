@@ -23,17 +23,32 @@ const textVariants = {
     },
   },
 };
+
+const imageVariants = {
+  initial: {
+    x: 500,
+    opacity: 0,
+  },
+  animate: {
+    x: 0,
+    opacity: 1,
+    transition: {
+      duration: 1,
+    },
+  },
+};
 const sliderVariants = {
   initial: {
     x: 0,
   },
   animate: {
-    x: "-500%",
+    x: "-1250%",
 
     transition: {
+      type: "tween",
       repeat: Infinity,
       repeatType: "mirror",
-      duration: 20,
+      duration: 40,
     },
   },
 };
@@ -41,12 +56,17 @@ const sliderVariants = {
 function Hero() {
   return (
     <div className="hero">
-      <div className="wrapper">
+      <motion.div
+        variants={textVariants}
+        initial="initial"
+        whileInView="animate"
+        className="wrapper"
+      >
         <motion.div
           className="textContainer"
           variants={textVariants}
-          initial="initial"
-          animate="animate"
+          // initial="initial"
+          // whileInView="animate"
         >
           <motion.h2 variants={textVariants}>Ilia Kozachyshyn</motion.h2>
           <motion.h1 variants={textVariants}>
@@ -70,12 +90,17 @@ function Hero() {
           animate="animate"
           className="slidingTextContainer"
         >
-          HTMl, CSS, JavaScript, React
+          React, JavaScript, TypeScript, HTML, CSS, SASS, TailwindCSS
         </motion.div>
-        <div className="imageContainer">
+        <motion.div
+          variants={imageVariants}
+          initial="initial"
+          whileInView="animate"
+          className="imageContainer"
+        >
           <img src="/hero.png" alt="hero img" />
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </div>
   );
 }
