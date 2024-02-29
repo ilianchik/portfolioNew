@@ -1,10 +1,6 @@
 html {
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
-
-  @media (max-width: 738px) {
-    scroll-snap-type: none;
-  }
 }
 * {
   padding: 0;
@@ -24,7 +20,7 @@ a {
 
 section {
   height: 100dvh;
-  scroll-snap-align: center;
+  scroll-snap-align: start;
 }
 
 ::-webkit-scrollbar {

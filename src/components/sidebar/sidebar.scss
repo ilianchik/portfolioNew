@@ -20,7 +20,7 @@
     opacity: 0;
 
     @include mobile {
-      width: 100dvw;
+      width: 60dvw;
     }
     .links {
       position: absolute;
@@ -32,7 +32,7 @@
       justify-content: center;
       gap: 20px;
       a {
-        font-size: 40px;
+        font-size: 30px;
       }
     }
   }
