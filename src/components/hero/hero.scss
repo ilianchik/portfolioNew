@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .hero {
   height: calc(100vh - 100px);
   background: linear-gradient(180deg, #0c0c1d, #111132);
@@ -11,6 +13,11 @@
     position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    @include mobile {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      transform: translateY(-5%) !important;
+    }
 
     .imageContainer {
       z-index: 2;
@@ -19,6 +26,13 @@
       align-items: center;
       justify-content: center;
       overflow: hidden;
+
+      @include mobile {
+        height: 50%;
+        position: absolute;
+        bottom: 0;
+        display: none;
+      }
       img {
         height: 100%;
       }
@@ -33,21 +47,39 @@
       justify-content: center;
       gap: 40px;
 
+      @include mobile {
+        height: 100%;
+        text-align: center;
+        align-items: center;
+      }
+
       h2 {
         font-size: 30px;
         color: #475d5c;
         text-transform: uppercase;
         letter-spacing: 10px;
+
+        @include mobile {
+          font-size: 20px;
+        }
       }
 
       h1 {
         font-size: 88px;
         color: #ebeded;
+        @include mobile {
+          font-size: 50px;
+        }
       }
       .buttons {
         display: flex;
         gap: 20px;
-        button {
+
+        @include mobile {
+          flex-direction: column;
+        }
+
+        a {
           padding: 20px;
           border: 1px solid #324b4a;
           border-radius: 10px;
@@ -59,6 +91,10 @@
           &:last-child {
             background-color: #324b4a;
             border: 1px solid #ebeded;
+          }
+          @include mobile {
+            padding: 15px;
+            font-size: 15px;
           }
         }
       }

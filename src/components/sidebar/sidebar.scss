@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -5,10 +7,10 @@
   justify-content: center;
   background-color: #ebeded;
   color: #324b4a;
-  z-index: 4;
+  z-index: 999;
 
   .bg {
-    z-index: 4;
+    z-index: 999;
     position: fixed;
     top: 0;
     left: 0;
@@ -16,6 +18,10 @@
     width: 400px;
     background: #ebeded;
     opacity: 0;
+
+    @include mobile {
+      width: 100vw;
+    }
     .links {
       position: absolute;
       width: 100%;
@@ -41,6 +47,6 @@
     border: none;
     cursor: pointer;
     transform: translateY(2.5px);
-    z-index: 4;
+    z-index: 999;
   }
 }

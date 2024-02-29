@@ -1,5 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 
 function PortfolioSection({ item }) {
   const ref = useRef();
@@ -8,6 +9,7 @@ function PortfolioSection({ item }) {
   });
 
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
+  const [t] = useTranslation("global");
 
   return (
     <section>
@@ -19,7 +21,24 @@ function PortfolioSection({ item }) {
           <motion.div style={{ y }} className="textContainer">
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
-            <button>See Demo</button>
+            <ul>
+              {t("Portfolio.technologies")}:
+              {item.tech.map((tech) => (
+                <li key={tech}>{tech}</li>
+              ))}
+            </ul>
+            <motion.a
+              animate={{ scale: 1.2 }}
+              transition={{
+                repeat: Infinity,
+                duration: 0.4,
+                repeatType: "mirror",
+              }}
+              target="blank"
+              href={item.link}
+            >
+              {t("Portfolio.button")}
+            </motion.a>
           </motion.div>
         </div>
       </div>

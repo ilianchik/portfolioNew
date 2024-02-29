@@ -1,0 +1,62 @@
+{
+  "Sidebar": {
+    "homepage": "Homepage",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "secondaryText": "Ilia Kozachyshyn",
+    "primaryText1": "Frontend",
+    "primaryText2": "developer",
+    "portfolioButton": "See the Latest Work",
+    "contactButton": "Contact me"
+  },
+  "Parallax": {
+    "parallaxServices": "What I Do?",
+    "parallaxPortfolio": "What I Did?"
+  },
+  "Services": {
+    "topText1": "I focus on helping your brand grow",
+    "topText2": "and move forward",
+    "headingText1.1": "Unique",
+    "headingText1.2": "Ideas",
+    "headingText2.1": "For Your",
+    "headingText2.2": "Business",
+    "headingButton": "What I Do?",
+    "box1Heading": "Web Applications Development",
+    "box1Text": "I specialize in crafting cutting-edge web applications tailored to your needs. Using modern technologies like React, Redux, React Query, Tailwind CSS, Styled Components, and others, I ensure dynamic and responsive user experiences.",
+    "box2Heading": "Landing Pages Development",
+    "box2Text": "Additionally, I boost online presence with captivating landing pages that effectively showcase products/services. My expertise lies in compelling design and intuitive UX, with integrated lead forms driving seamless lead generation.",
+    "box3Heading": "Unique Animations and Visuals",
+    "box3Text": "I also excel in creating distinctive animations and visuals that help brands stand out. Whether it's through CSS animations or JavaScript libraries I create immersive experiences that set websites apart.",
+    "box4Heading": "Optimization of Existing Products",
+    "box4Text": "Furthermore, I maximize performance and accessibility of existing products through comprehensive optimization strategies. From analyzing loading speeds to implementing caching and SEO enhancements, I ensure seamless user experiences that yield tangible results."
+  },
+  "Portfolio": {
+    "progressText": "Featured Works",
+    "technologies": "Technologies",
+    "button": "See Demo",
+    "portfolio1Title": "React BeSocial",
+    "portfolio1Text": "React socal media application",
+    "portfolio2Title": "Pages",
+    "portfolio2Text": "Landing page with a book theme, interesting design and ideas",
+    "portfolio3Title": "Vanilla JS App",
+    "portfolio3Text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, nostrum?",
+    "portfolio4Title": "Music App",
+    "portfolio4Text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, nostrum?"
+  },
+  "Contact": {
+    "title1": "Let's",
+    "title2": "work",
+    "title3": "together",
+    "mail": "Mail",
+    "phone": "Phone",
+    "namePlaceholder": "Name",
+    "emailPlaceholder": "Email",
+    "messagePlaceholder": "Message",
+    "button": "Submit",
+    "error": "Error!",
+    "success": "Success!"
+  }
+}

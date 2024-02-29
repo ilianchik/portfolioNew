@@ -1,0 +1,62 @@
+{
+  "Sidebar": {
+    "homepage": "Головна",
+    "services": "Сервіси",
+    "portfolio": "Портфоліо",
+    "contact": "Контакти"
+  },
+  "Hero": {
+    "secondaryText": "Ілья Козачишин",
+    "primaryText1": "Фронтенд",
+    "primaryText2": "розробник",
+    "portfolioButton": "Подивитися мої pоботи",
+    "contactButton": "Зв'язатися зі мною"
+  },
+  "Parallax": {
+    "parallaxServices": "Що я роблю?",
+    "parallaxPortfolio": "Що я зробив?"
+  },
+  "Services": {
+    "topText1": "Мій основний фокус - ріст вашого бренду",
+    "topText2": "та просування вперед",
+    "headingText1.1": "Унікальні",
+    "headingText1.2": "ідеї",
+    "headingText2.1": "Для вашого",
+    "headingText2.2": "бізнесу",
+    "headingButton": "Що я роблю?",
+    "box1Heading": "Розробка веб-застосунків",
+    "box1Text": "Я спеціалізуюсь на створенні передових веб-застосунків, які відповідають вашим потребам. Використовуючи сучасні технології, такі як React, Redux, React Query, Tailwind CSS, Styled Components та інші, я забезпечую динамічний та гнучкий користувацький досвід.",
+    "box2Heading": "Розробка лендингів",
+    "box2Text": "Крім того, я покращую онлайн-видимість бізнесу за допомогою лендингів, що вміло презентують різноманітні продукти та послуги. Моя кваліфікація полягає у створенні сторінок які залишають найпозитивніші користувацькі враження. ",
+    "box3Heading": "Унікальні анімації та візуальні ефекти",
+    "box3Text": "Також я створюю різноманітні анімації та візуальні ефекти, які допомагають брендам виділятися. За допомогою анімації CSS чи бібліотек JavaScript направлених на анімацію, я створюю захоплюючий досвід для користувача.",
+    "box4Heading": "Оптимізація існуючих продуктів",
+    "box4Text": "Крім того, я максимізую продуктивність і доступність існуючих продуктів за допомогою комплексних стратегій оптимізації. Від аналізу швидкості завантаження до впровадження кешування та вдосконалення SEO, я забезпечую безперебійну взаємодію з користувачем, яка дає відчутні результати."
+  },
+  "Portfolio": {
+    "progressText": "Мої роботи",
+    "technologies": "Технології",
+    "button": "Переглянути демо",
+    "portfolio1Title": "React BeSocial",
+    "portfolio1Text": "Соціальна мережа",
+    "portfolio2Title": "Pages",
+    "portfolio2Text": "Лендинг сторінка, з книжковою тематикою та цікавим дизайном",
+    "portfolio3Title": "Vanilla JS App",
+    "portfolio3Text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, nostrum?",
+    "portfolio4Title": "Music App",
+    "portfolio4Text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, nostrum?"
+  },
+  "Contact": {
+    "title1": "Давай",
+    "title2": "працювати",
+    "title3": "разом",
+    "mail": "Пошта",
+    "phone": "Телефон",
+    "namePlaceholder": "Ім'я",
+    "emailPlaceholder": "Електронна пошта",
+    "messagePlaceholder": "Повідомлення",
+    "button": "Відправити",
+    "error": "Помилка!",
+    "success": "Успіх!"
+  }
+}

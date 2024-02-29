@@ -15,7 +15,7 @@
 
     p {
       font-weight: 200;
-      font-size: 20px;
+      font-size: 18px;
       color: #ebeded;
       text-align: right;
     }
@@ -34,26 +34,26 @@
     .title {
       display: flex;
       align-items: center;
-      gap: 50px;
+      gap: 30px;
       color: #ebeded;
       img {
-        width: 300px;
+        width: 250px;
         height: 100px;
         border-radius: 50px;
         object-fit: cover;
       }
       h1 {
-        font-size: 96px;
+        font-size: 90px;
         font-weight: 100;
       }
       button {
-        width: 300px;
+        width: 250px;
         height: 100px;
         border-radius: 50px;
         background-color: #324b4a;
         border: 0.5px solid white;
         color: white;
-        font-size: 24px;
+        font-size: 26px;
       }
     }
   }
@@ -66,18 +66,14 @@
 
     .box {
       display: flex;
-      padding: 30px;
+      padding: 25px;
       border: 0.5px solid #324b4a;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: center;
+      gap: 20px;
       color: #ebeded;
-
-      button {
-        padding: 10px;
-        background-color: #324b4a;
-        color: #ebeded;
-        border: none;
-        cursor: pointer;
+      h2 {
+        font-weight: bold;
       }
     }
   }

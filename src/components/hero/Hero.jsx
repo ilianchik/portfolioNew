@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import "./hero.scss";
+import { useTranslation } from "react-i18next";
 
 const textVariants = {
   initial: {
@@ -26,7 +27,7 @@ const textVariants = {
 
 const imageVariants = {
   initial: {
-    x: 500,
+    x: 1000,
     opacity: 0,
   },
   animate: {
@@ -54,6 +55,8 @@ const sliderVariants = {
 };
 
 function Hero() {
+  const [t] = useTranslation("global");
+
   return (
     <div className="hero">
       <motion.div
@@ -62,21 +65,28 @@ function Hero() {
         whileInView="animate"
         className="wrapper"
       >
-        <motion.div
-          className="textContainer"
-          variants={textVariants}
-          // initial="initial"
-          // whileInView="animate"
-        >
-          <motion.h2 variants={textVariants}>Ilia Kozachyshyn</motion.h2>
+        <motion.div className="textContainer" variants={textVariants}>
+          <motion.h2 variants={textVariants}>
+            {t("Hero.secondaryText")}
+          </motion.h2>
           <motion.h1 variants={textVariants}>
-            Frontend <br /> developer
+            {t("Hero.primaryText1")} <br /> {t("Hero.primaryText2")}
           </motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
-              See the Latest Works
-            </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.a
+              whileHover={{ scale: 1.1 }}
+              href={`#${t("Sidebar.portfolio")}`}
+              variants={textVariants}
+            >
+              {t("Hero.portfolioButton")}
+            </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.1 }}
+              href={`#${t("Sidebar.contact")}`}
+              variants={textVariants}
+            >
+              {t("Hero.contactButton")}
+            </motion.a>
           </motion.div>
           <motion.img
             variants={textVariants}

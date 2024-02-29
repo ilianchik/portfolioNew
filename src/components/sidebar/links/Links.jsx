@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const variants = {
   opened: {
@@ -21,7 +22,13 @@ const itemVariants = {
 };
 
 function Links() {
-  const items = ["Homepage", "Services", "Portfolio", "Contact", "About"];
+  const [t, i18n] = useTranslation("global");
+  const items = [
+    t("Sidebar.homepage"),
+    t("Sidebar.services"),
+    t("Sidebar.portfolio"),
+    t("Sidebar.contact"),
+  ];
 
   return (
     <motion.div className="links" variants={variants}>

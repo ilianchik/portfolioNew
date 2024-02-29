@@ -1,0 +1,39 @@
+.switch {
+  background-color: #ebeded;
+  width: 105px;
+  height: 62px;
+
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+  position: fixed;
+  z-index: 5;
+  top: 23px;
+  left: 90px;
+  svg {
+    width: 25px;
+    position: absolute;
+    right: 18.5px;
+    top: 18.5px;
+    border-radius: 20%;
+    &:first-child {
+      left: 18.5px;
+      top: 18.5px;
+    }
+  }
+}
+
+.switch[data-language="ua"] {
+  justify-content: flex-end;
+}
+
+.handle {
+  width: 42px;
+  height: 42px;
+  background-color: #324b4a46;
+  border: 2px solid #324b4a;
+  z-index: 2;
+  border-radius: 40px;
+}
