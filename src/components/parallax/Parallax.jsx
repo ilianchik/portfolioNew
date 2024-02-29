@@ -24,7 +24,7 @@ function Parallax({ type }) {
             : "linear-gradient(180deg, #111132, #505064)",
       }}
     >
-      <motion.h1 style={{ y: yText, x: -50 }}>
+      <motion.h1 style={{ y: yText }}>
         {type === "services"
           ? t("Parallax.parallaxServices")
           : t("Parallax.parallaxPortfolio")}
