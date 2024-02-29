@@ -1,7 +1,8 @@
 @import "../../app.scss";
 
 .hero {
-  height: calc(100dvh - 100px);
+  height: calc(100vh - 100px);
+  height: calc(100svh - 100px);
   background: linear-gradient(180deg, #0c0c1d, #111132);
   overflow: hidden;
   position: relative;
@@ -103,7 +104,8 @@
 
     .slidingTextContainer {
       position: absolute;
-      font-size: 50dvh;
+      font-size: 50vh;
+      font-size: 50svh;
       bottom: -60px;
       white-space: nowrap;
       color: #324b4a4e;
