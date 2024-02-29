@@ -26,11 +26,11 @@ const App = () => {
       <section id={t("Sidebar.portfolio")}>
         <Parallax type="portfolio" />
       </section>
-      {/* <Portfolio /> */}
+      <Portfolio />
 
-      {/* <section id={t("Sidebar.contact")}>
+      <section id={t("Sidebar.contact")}>
         <Contact />
-      </section> */}
+      </section>
     </div>
   );
 };

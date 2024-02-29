@@ -7,6 +7,10 @@
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 25px;
+  @include mobile {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
   .textContainer {
     flex: 1;

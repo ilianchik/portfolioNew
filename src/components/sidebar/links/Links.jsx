@@ -20,8 +20,7 @@ const itemVariants = {
     opacity: 0,
   },
 };
-
-function Links() {
+function Links({ setOpen }) {
   const [t, i18n] = useTranslation("global");
   const items = [
     t("Sidebar.homepage"),
@@ -35,6 +34,7 @@ function Links() {
       {items.map((item) => (
         <motion.a
           href={`#${item}`}
+          onClick={() => setOpen((prev) => !prev)}
           key={item}
           variants={itemVariants}
           whileHover={{ scale: 1.1 }}
