@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 const variants = {
   initial: {
-    x: -500,
+    x: -300,
     opacity: 0,
   },
   animate: {

@@ -20,12 +20,12 @@ const App = () => {
       <section id={t("Sidebar.services")}>
         <Parallax type="services" />
       </section>
-      {/* <section>
+      <section>
         <Services />
-      </section> */}
-      {/* <section id={t("Sidebar.portfolio")}>
+      </section>
+      <section id={t("Sidebar.portfolio")}>
         <Parallax type="portfolio" />
-      </section> */}
+      </section>
       {/* <Portfolio /> */}
 
       {/* <section id={t("Sidebar.contact")}>

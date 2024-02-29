@@ -31,7 +31,7 @@ function Parallax({ type }) {
       </motion.h1>
       <motion.span style={{ y: yText }}>
         <motion.img
-          initial={{ y: 40, x: -60 }}
+          initial={{ y: 40 }}
           animate={{ y: 110 }}
           transition={{
             repeat: Infinity,
