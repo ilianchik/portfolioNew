@@ -8,7 +8,10 @@
   justify-content: center;
   gap: 50px;
   color: #ebeded;
-
+  @include tablet {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   @include mobile {
     flex-direction: column;
     gap: 40px;

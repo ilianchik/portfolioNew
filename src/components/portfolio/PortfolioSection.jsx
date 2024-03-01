@@ -11,14 +11,16 @@ function PortfolioSection({ item }) {
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
   const [t] = useTranslation("global");
 
+  const isSmallScreen = window.innerWidth < 1366;
   return (
-    <section>
+    <section className="portfolioSection">
       <div className="container">
         <div className="wrapper">
           <div className="imgContainer">
             <img ref={ref} src={item.img} alt="portfolio image" />
           </div>
-          <motion.div style={{ y }} className="textContainer">
+
+          <motion.div style={!isSmallScreen && { y }} className="textContainer">
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
             <ul>

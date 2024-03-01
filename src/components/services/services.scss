@@ -9,6 +9,11 @@
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 25px;
+    @include tablet {
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 5px;
+    }
     @include mobile {
       padding-top: 100px;
       display: grid;
