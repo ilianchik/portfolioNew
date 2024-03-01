@@ -9,7 +9,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
 
 const App = () => {
-  const [t, i18n] = useTranslation("global");
+  const [t] = useTranslation("global");
   return (
     <div>
       <Cursor />
