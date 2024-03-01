@@ -91,6 +91,7 @@
         height: 50%;
         @include mobile {
           z-index: 0;
+          width: 90vw;
         }
         img {
           width: 100%;
@@ -113,7 +114,7 @@
         color: #ebeded;
         @include mobile {
           position: absolute;
-          bottom: -7%;
+          bottom: -12%;
           padding-left: 5px;
           padding-right: 5px;
           transform: translateY(-50%) !important;
@@ -128,6 +129,7 @@
         p {
           font-size: 20px;
           @include mobile {
+            font-size: 18px;
           }
         }
         ul {

@@ -59,12 +59,18 @@ function Contact() {
           {t("Contact.title3")}
         </motion.h1>
         <motion.div variants={variants} className="item">
-          <h2> {t("Contact.mail")}:</h2>
-          <span>iliakozachyshyn@gmail.com</span>
+          <h2>{t("Contact.mail")}:</h2>
+          <span>
+            <a href="mailto:iliakozachyshyn@gmail.com">
+              iliakozachyshyn@gmail.com
+            </a>
+          </span>
         </motion.div>
         <motion.div variants={variants} className="item">
           <h2>{t("Contact.phone")}:</h2>
-          <span>+380636281789</span>
+          <span>
+            <a href="tel:+380636281789">+380636281789</a>
+          </span>
         </motion.div>
       </motion.div>
       <motion.div variants={variants} className="formContainer">
