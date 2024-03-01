@@ -1,9 +1,7 @@
 html {
   scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
+  // scroll-behavior: smooth;
   @media (max-width: 738px) {
-    scroll-behavior: auto;
-    scroll-snap-type: proximity;
   }
 }
 * {

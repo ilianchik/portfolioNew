@@ -14,7 +14,7 @@ function Portfolio() {
       img: "/BeSocial.png",
       desc: t("Portfolio.portfolio1Text"),
       tech: ["React", "TypeScript", "HTML", "TailwindCSS", "Appwrite"],
-      link: "https://be-social-l2ambrt3r-ilianchik.vercel.app/",
+      link: "https://be-social-psi.vercel.app/",
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ function Portfolio() {
       img: "/BeSocial.png",
       desc: t("Portfolio.portfolio3Text"),
       tech: ["HTML", "TailwindCSS", "TypeScript", "React", "Appwrite"],
-      link: "https://be-social-l2ambrt3r-ilianchik.vercel.app/",
+      link: "https://be-social-psi.vercel.app/",
     },
     {
       id: 4,
@@ -38,7 +38,7 @@ function Portfolio() {
       img: "/BeSocial.png",
       desc: t("Portfolio.portfolio4Text"),
       tech: ["HTML", "TailwindCSS", "TypeScript", "React", "Appwrite"],
-      link: "https://be-social-l2ambrt3r-ilianchik.vercel.app/",
+      link: "https://be-social-psi.vercel.app/",
     },
   ];
 
