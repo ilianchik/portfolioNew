@@ -1,3 +1,4 @@
+@import "../../app.scss";
 .contact {
   height: 100%;
   max-width: 1366px;
@@ -8,30 +9,59 @@
   gap: 50px;
   color: #ebeded;
 
+  @include mobile {
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .textContainer {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    text-align: center;
+    @include mobile {
+      flex: 0;
+    }
 
     h1 {
       font-size: 100px;
       line-height: 88px;
+      @include mobile {
+        font-size: 50px;
+        line-height: 50px;
+      }
       span {
         color: #324b4a;
         font-size: 100px;
         line-height: 88px;
         font-weight: bold;
+        @include mobile {
+          font-size: 50px;
+          line-height: 50px;
+        }
       }
     }
-
+    h2 {
+      @include mobile {
+        font-size: 20px;
+      }
+    }
     span {
       font-weight: 300;
+      @include mobile {
+        font-size: 16px;
+      }
     }
   }
   .formContainer {
     position: relative;
     flex: 1;
+    @include mobile {
+      width: 100%;
+    }
 
     .phoneSvg {
       z-index: -1;
@@ -40,30 +70,38 @@
       top: 50%;
       right: 50%;
       transform: translate(50%, -50%);
+      svg {
+        @include mobile {
+          width: 80vw;
+        }
+      }
     }
 
     form {
       display: flex;
       flex-direction: column;
       gap: 20px;
-
-      input,
-      textarea {
-        padding: 20px;
-        background-color: transparent;
-        border: 1px solid #324b4a;
-        border-radius: 5px;
-        color: #ebeded;
-        &::placeholder {
-          color: #ebeded;
-        }
-      }
       button {
         padding: 20px;
         border: none;
         background-color: #324b4a;
         color: #ebeded;
         font-weight: 500;
+        @include mobile {
+          padding: 15px;
+        }
+      }
+    }
+
+    input,
+    textarea {
+      padding: 20px;
+      background-color: transparent;
+      border: 1px solid #324b4a;
+      border-radius: 5px;
+      color: #ebeded;
+      &::placeholder {
+        color: #ebeded;
       }
     }
   }
