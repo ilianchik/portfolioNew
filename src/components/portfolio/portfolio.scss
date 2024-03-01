@@ -1,3 +1,4 @@
+@import "../../app.scss";
 .portfolio {
   position: relative;
   .progress {
@@ -9,6 +10,13 @@
     text-align: center;
     color: #ebeded;
     font-size: 36px;
+    @include mobile {
+      padding-top: calc(100dvh - 100px);
+      font-size: 24px;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
     h1 {
       /* Fallback: Set a background color. */
       background-color: #324b4a;
@@ -40,6 +48,9 @@
         rgba(235, 237, 237, 1) 0%,
         rgba(50, 75, 74, 1) 68%
       );
+
+      @include mobile {
+      }
     }
   }
   .container {
@@ -49,6 +60,9 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
+    @include mobile {
+      padding-top: 80px;
+    }
     .wrapper {
       max-width: 1366px;
       height: 100%;
@@ -58,14 +72,28 @@
       justify-content: center;
       gap: 50px;
       transform: translateY(50px);
+
+      @include mobile {
+        flex-direction: column;
+        transform: translateY(0);
+      }
       .imgContainer {
         flex: 1;
         height: 50%;
+        @include mobile {
+          z-index: 2;
+        }
         img {
           width: 100%;
           height: 100%;
           object-fit: cover;
           border-radius: 5%;
+          @include mobile {
+            max-height: 300px;
+            object-fit: contain;
+            padding-left: 10px;
+            padding-right: 10px;
+          }
         }
       }
       .textContainer {
@@ -74,11 +102,24 @@
         flex-direction: column;
         gap: 20px;
         color: #ebeded;
+        @include mobile {
+          position: absolute;
+          bottom: -10%;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
         h2 {
           font-size: 72px;
+          @include mobile {
+            font-size: 45px;
+            text-align: center;
+          }
         }
         p {
           font-size: 20px;
+          @include mobile {
+            text-align: center;
+          }
         }
         ul {
           font-size: 20px;
@@ -86,6 +127,9 @@
           flex-direction: column;
           gap: 4px;
           margin-bottom: 20px;
+          @include mobile {
+            padding-left: 20px;
+          }
 
           li {
             margin-left: 20px;
@@ -107,6 +151,9 @@
           width: 200px;
           padding: 10px;
           cursor: pointer;
+          @include mobile {
+            align-self: center;
+          }
         }
       }
     }

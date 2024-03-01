@@ -28,9 +28,9 @@ const App = () => {
       </section>
       <Portfolio />
 
-      <section id={t("Sidebar.contact")}>
+      {/* <section id={t("Sidebar.contact")}>
         <Contact />
-      </section>
+      </section> */}
     </div>
   );
 };
