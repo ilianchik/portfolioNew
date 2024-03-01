@@ -1,6 +1,9 @@
 @import "../../app.scss";
 .portfolio {
   position: relative;
+  @include mobile {
+    margin-top: calc(50px - 100dvh);
+  }
   .progress {
     z-index: 0;
     position: sticky;

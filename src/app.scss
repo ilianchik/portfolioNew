@@ -2,6 +2,8 @@ html {
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   @media (max-width: 738px) {
+    scroll-snap-type: unset;
+    scroll-behavior: unset;
   }
 }
 * {
@@ -11,7 +13,6 @@ html {
   font-family: "DM Sans", "Roboto";
 }
 body {
-  scroll-snap-type: y mandatory;
   background-color: #0c0c1d;
   color: lightgray;
 }
