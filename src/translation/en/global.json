@@ -37,14 +37,14 @@
     "progressText": "Featured Works",
     "technologies": "Technologies",
     "button": "See Demo",
-    "portfolio1Title": "React BeSocial",
-    "portfolio1Text": "React socal media application",
-    "portfolio2Title": "Pages",
-    "portfolio2Text": "Landing page with a book theme, interesting design and ideas",
-    "portfolio3Title": "Vanilla JS App",
-    "portfolio3Text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, nostrum?",
-    "portfolio4Title": "Music App",
-    "portfolio4Text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, nostrum?"
+    "portfolio1Title": "BeSocial",
+    "portfolio1Text": "React social media application",
+    "portfolio2Title": "Gadget store",
+    "portfolio2Text": "E-Commerce application",
+    "portfolio3Title": "Pages",
+    "portfolio3Text": "Landing page with a book theme, interesting design and ideas",
+    "portfolio4Title": "Turbo Car",
+    "portfolio4Text": "Car wash website"
   },
   "Contact": {
     "title1": "Let's",

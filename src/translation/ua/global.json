@@ -37,14 +37,14 @@
     "progressText": "Мої роботи",
     "technologies": "Технології",
     "button": "Переглянути демо",
-    "portfolio1Title": "React BeSocial",
+    "portfolio1Title": "BeSocial",
     "portfolio1Text": "Соціальна мережа",
-    "portfolio2Title": "Pages",
-    "portfolio2Text": "Лендинг сторінка, з книжковою тематикою та цікавим дизайном",
-    "portfolio3Title": "Vanilla JS App",
-    "portfolio3Text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, nostrum?",
-    "portfolio4Title": "Music App",
-    "portfolio4Text": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, nostrum?"
+    "portfolio2Title": "Gadget store",
+    "portfolio2Text": "Інтернет магазин гаджетів",
+    "portfolio3Title": "Pages",
+    "portfolio3Text": "Лендинг сторінка, з книжковою тематикою та цікавим дизайном",
+    "portfolio4Title": "Turbo car",
+    "portfolio4Text": "Вебсайт для автомийки"
   },
   "Contact": {
     "title1": "Давай",
