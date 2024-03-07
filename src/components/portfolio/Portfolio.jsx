@@ -19,10 +19,10 @@ function Portfolio() {
     {
       id: 2,
       title: t("Portfolio.portfolio2Title"),
-      img: "/Gadget-store.png",
+      img: "/Moviex.png",
       desc: t("Portfolio.portfolio2Text"),
-      tech: ["NextJs", "JavaScript", "HTML", "CSS", "Stripe"],
-      link: "https://gadget-store-st74.vercel.app/",
+      tech: ["React", "JavaScript", "HTML", "CSS", "Firebase"],
+      link: "https://moviex-ivory-one.vercel.app/",
     },
     {
       id: 3,
