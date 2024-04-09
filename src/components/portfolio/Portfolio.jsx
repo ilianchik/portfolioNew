@@ -10,12 +10,13 @@ function Portfolio() {
   const items = [
     {
       id: 1,
-      title: t("Portfolio.portfolio1Title"),
-      img: "/BeSocial.png",
-      desc: t("Portfolio.portfolio1Text"),
-      tech: ["React", "TypeScript", "HTML", "TailwindCSS", "Appwrite"],
-      link: "https://be-social-psi.vercel.app/",
+      title: t("Portfolio.portfolio5Title"),
+      img: "/YumYard.png",
+      desc: t("Portfolio.portfolio5Text"),
+      tech: ["NextJs", "TailwindCSS", "MongoDb", "Stripe"],
+      link: "https://yum-yard.vercel.app/",
     },
+
     {
       id: 2,
       title: t("Portfolio.portfolio2Title"),
@@ -26,6 +27,14 @@ function Portfolio() {
     },
     {
       id: 3,
+      title: t("Portfolio.portfolio1Title"),
+      img: "/BeSocial.png",
+      desc: t("Portfolio.portfolio1Text"),
+      tech: ["React", "TypeScript", "HTML", "TailwindCSS", "Appwrite"],
+      link: "https://be-social-psi.vercel.app/",
+    },
+    {
+      id: 4,
       title: t("Portfolio.portfolio3Title"),
       img: "/pages.png",
       desc: t("Portfolio.portfolio3Text"),
@@ -33,7 +42,7 @@ function Portfolio() {
       link: "https://ilianchik.github.io/Page/",
     },
     {
-      id: 4,
+      id: 5,
       title: t("Portfolio.portfolio4Title"),
       img: "/Turbo-car.png",
       desc: t("Portfolio.portfolio4Text"),
